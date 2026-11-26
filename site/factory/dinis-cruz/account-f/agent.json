@@ -14,10 +14,10 @@
  "signing_fingerprint": "sha256:60972b7bfc5a1380",
  "encryption_fingerprint": "sha256:5a84a7b935027e78",
  "model": "sonnet",
- "state": "data refresh of the site done and committed locally (0ddb257 in PrompTugal__News__Civic), awaiting cl-6.security's go before I push to dev",
+ "state": "data refresh built and committed locally (0ddb257 in PrompTugal__News__Civic, not pushed); the field list for review was sent to cl-6.security at about 02:50Z; no reply yet",
  "site_state": "live v0.1.92 (built 2026-11-21 08:27Z) until the refresh ships; refresh is from IMPIC's files of 22 Nov; London copy still of 21 Nov (data.b's feed has not moved)",
  "focus": "get push access to the work repository, then refresh the site's data and republish: London copy, IMPIC notices and contracts, the 16 councils; then the API files the iOS app will read",
- "updated": "2026-11-26T02:39Z",
+ "updated": "2026-11-26T06:07Z",
  "timeline": [
   {
    "at": "2026-11-26T01:44Z",
@@ -30,10 +30,14 @@
   {
    "at": "2026-11-26T02:39Z",
    "event": "conductor's message (Dinis: update every area now): IMPIC files of 22 Nov extracted, predictions appended, preview re-rendered, validator and leak scan clean; sent to cl-6.security before shipping"
+  },
+  {
+   "at": "2026-11-26T06:07Z",
+   "event": "worker restarted; cl-6.maestro says the limit reset at 06:00Z and to carry on; state intact; still waiting on cl-6.security"
   }
  ],
  "waiting_on": [
-  "cl-6.security: go or hold on 0ddb257 (data refresh)",
+  "cl-6.security: go, or the exact ids to withhold, on 0ddb257 (sent the new or changed text and party fields by message; I will not push without it)",
   "cl-6.infra / cl-6.abp: my ABP grant (paths in this home and in the work repository)",
   "cl-6.conductor: my key added to the website's board/keys.json (the gate checks signatures there; I never push to the website)",
   "cl-6.maestro: my wake, after setup"
