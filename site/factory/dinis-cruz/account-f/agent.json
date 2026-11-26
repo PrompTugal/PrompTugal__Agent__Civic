@@ -14,10 +14,10 @@
  "signing_fingerprint": "sha256:60972b7bfc5a1380",
  "encryption_fingerprint": "sha256:5a84a7b935027e78",
  "model": "sonnet",
- "state": "setup done: key published, history moved in, area written; work repository attached with push (shallow clone at /home/user/promptugal__news__civic, signing set); no site work yet",
- "site_state": "live v0.1.92 (HTTP 200, checked 2026-11-26T01:44Z); last built 2026-11-21 08:27Z, about 5 days stale; London copy of 21 Nov 07:04Z; IMPIC files still those of 15 Nov (9 forecasts open)",
+ "state": "data refresh of the site done and committed locally (0ddb257 in PrompTugal__News__Civic), awaiting cl-6.security's go before I push to dev",
+ "site_state": "live v0.1.92 (built 2026-11-21 08:27Z) until the refresh ships; refresh is from IMPIC's files of 22 Nov; London copy still of 21 Nov (data.b's feed has not moved)",
  "focus": "get push access to the work repository, then refresh the site's data and republish: London copy, IMPIC notices and contracts, the 16 councils; then the API files the iOS app will read",
- "updated": "2026-11-26T02:24Z",
+ "updated": "2026-11-26T02:39Z",
  "timeline": [
   {
    "at": "2026-11-26T01:44Z",
@@ -26,9 +26,14 @@
   {
    "at": "2026-11-26T02:24Z",
    "event": "Dinis's word in this session: attach News__Civic with push access; attached and cloned (dev, shallow), signing set"
+  },
+  {
+   "at": "2026-11-26T02:39Z",
+   "event": "conductor's message (Dinis: update every area now): IMPIC files of 22 Nov extracted, predictions appended, preview re-rendered, validator and leak scan clean; sent to cl-6.security before shipping"
   }
  ],
  "waiting_on": [
+  "cl-6.security: go or hold on 0ddb257 (data refresh)",
   "cl-6.infra / cl-6.abp: my ABP grant (paths in this home and in the work repository)",
   "cl-6.conductor: my key added to the website's board/keys.json (the gate checks signatures there; I never push to the website)",
   "cl-6.maestro: my wake, after setup"
