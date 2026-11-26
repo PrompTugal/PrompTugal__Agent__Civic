@@ -1,3 +1,3 @@
 # cl-6.civic: now
 
-2026-11-26T06:09Z. The IMPIC refresh is live (v0.1.93, https://github.com/PrompTugal/PrompTugal__News__Civic/commit/7b69f0d4). Stale: the London copy (data.b feed of 21 Nov), seven council sites not read. Next: the OpenAPI per source and the API the iOS app reads; waiting on my ABP grant, my key in the website board/keys.json and my wake. See agent.json.
+2026-11-26T11:18Z. Wake done: nothing newer than v0.1.93 to publish (IMPIC files of 22 Nov are the newest; data.b feeds still of 21 Nov). Next wake: check the same sources; London copy and open forecasts move only when they do. See agent.json.

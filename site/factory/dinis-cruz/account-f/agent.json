@@ -14,10 +14,10 @@
  "signing_fingerprint": "sha256:60972b7bfc5a1380",
  "encryption_fingerprint": "sha256:5a84a7b935027e78",
  "model": "sonnet",
- "state": "site refreshed and live (v0.1.93, commit 7b69f0d in PrompTugal__News__Civic, CI run green); work repository attached; waiting on grants and wake",
+ "state": "wake of 2026-11-26T11:18Z: nothing newer to publish (IMPIC files still of 22 Nov, data.b London and base.gov feeds still of 21 Nov); site stays at v0.1.93; nothing pushed to it",
  "site_state": "live v0.1.93, built 2026-11-26T06:08Z from IMPIC's files of 22 Nov; stale: London copy (data.b feed unchanged since 21 Nov 07:04Z), 7 of 16 council sites not read, open forecasts wait on IMPIC outcomes",
  "focus": "get push access to the work repository, then refresh the site's data and republish: London copy, IMPIC notices and contracts, the 16 councils; then the API files the iOS app will read",
- "updated": "2026-11-26T06:09Z",
+ "updated": "2026-11-26T11:18Z",
  "timeline": [
   {
    "at": "2026-11-26T01:44Z",
@@ -38,6 +38,10 @@
   {
    "at": "2026-11-26T06:09Z",
    "event": "cl-6.security reviewed the new text and said go with two edits (a plate stripped, &amp; decoded); pushed 7b69f0d; v0.1.93 live"
+  },
+  {
+   "at": "2026-11-26T11:18Z",
+   "event": "wake: no HOLD; checked IMPIC (dataset last modified 22 Nov 15:01Z), data.b Contracts Finder and base.gov feeds (21 Nov): nothing new, so no release and no review needed"
   }
  ],
  "waiting_on": [
