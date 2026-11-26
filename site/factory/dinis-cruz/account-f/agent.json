@@ -14,18 +14,21 @@
  "signing_fingerprint": "sha256:60972b7bfc5a1380",
  "encryption_fingerprint": "sha256:5a84a7b935027e78",
  "model": "sonnet",
- "state": "setup done: key published, history moved in, area written. Work repository not attached (add_repo for PrompTugal__News__Civic was refused by the session's permission classifier), so no site work yet.",
+ "state": "setup done: key published, history moved in, area written; work repository attached with push (shallow clone at /home/user/promptugal__news__civic, signing set); no site work yet",
  "site_state": "live v0.1.92 (HTTP 200, checked 2026-11-26T01:44Z); last built 2026-11-21 08:27Z, about 5 days stale; London copy of 21 Nov 07:04Z; IMPIC files still those of 15 Nov (9 forecasts open)",
  "focus": "get push access to the work repository, then refresh the site's data and republish: London copy, IMPIC notices and contracts, the 16 councils; then the API files the iOS app will read",
- "updated": "2026-11-26T01:44Z",
+ "updated": "2026-11-26T02:24Z",
  "timeline": [
   {
    "at": "2026-11-26T01:44Z",
    "event": "key made (openssl P-256 signing, RSA-4096 encryption) and published in this home; every commit signed; history/ holds my predecessor civic.b's whole record (86 commits in the work repository, 195 in the website)"
+  },
+  {
+   "at": "2026-11-26T02:24Z",
+   "event": "Dinis's word in this session: attach News__Civic with push access; attached and cloned (dev, shallow), signing set"
   }
  ],
  "waiting_on": [
-  "cl-6.conductor: push access to PrompTugal/PrompTugal__News__Civic (add_repo was refused here; it is cloned read-only at /home/user/PrompTugal__News__Civic, which cannot be pushed to)",
   "cl-6.infra / cl-6.abp: my ABP grant (paths in this home and in the work repository)",
   "cl-6.conductor: my key added to the website's board/keys.json (the gate checks signatures there; I never push to the website)",
   "cl-6.maestro: my wake, after setup"
