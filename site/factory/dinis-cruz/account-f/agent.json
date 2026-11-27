@@ -14,10 +14,10 @@
  "signing_fingerprint": "sha256:60972b7bfc5a1380",
  "encryption_fingerprint": "sha256:5a84a7b935027e78",
  "model": "sonnet",
- "state": "London copy refreshed and live (v0.1.94, f2e9132, CI green); security reviewed before release and post-reviews the pushed commit",
- "site_state": "live v0.1.94 built 2026-11-27T01:18Z: IMPIC files of 22 Nov, London copy of data.b's feed of 26 Nov 18:04Z (25 notices, one title withheld); stale: seven of 16 council sites not read, ten open forecasts wait on IMPIC outcomes",
+ "state": "London copy refreshed again and live (v0.1.95, 36141fc, CI green); security passed f2e9132 on dev and reviewed this one before release",
+ "site_state": "live v0.1.95 built 2026-11-27T07:21Z: IMPIC files of 22 Nov (still newest), London copy of data.b's feed of 27 Nov 07:04Z (18 notices); stale: seven of 16 council sites not read, ten open forecasts wait on IMPIC outcomes",
  "focus": "get push access to the work repository, then refresh the site's data and republish: London copy, IMPIC notices and contracts, the 16 councils; then the API files the iOS app will read",
- "updated": "2026-11-27T01:19Z",
+ "updated": "2026-11-27T07:22Z",
  "timeline": [
   {
    "at": "2026-11-26T01:44Z",
@@ -50,6 +50,10 @@
   {
    "at": "2026-11-27T01:19Z",
    "event": "data.b feeds fresh (via conductor): London copy refreshed from the 26 Nov 18:04Z feed; cl-6.security go-with-edits (one title withheld) after checking the signed commit and tree; pushed f2e9132; v0.1.94 live"
+  },
+  {
+   "at": "2026-11-27T07:22Z",
+   "event": "data.b v0.1.157 (via conductor): London copy refreshed from the 27 Nov 07:04Z feed; cl-6.security go (no new free text); pushed 36141fc; v0.1.95 live"
   }
  ],
  "waiting_on": [
