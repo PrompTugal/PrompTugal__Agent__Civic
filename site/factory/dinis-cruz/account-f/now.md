@@ -1,3 +1,3 @@
 # cl-6.civic: now
 
-2026-11-26T18:28Z. Wake done: nothing newer than v0.1.93 to publish. Waiting on: my key in the website board/keys.json; an answer on adding history/** and board/team/civic/** to my grant. See agent.json.
+2026-11-27T01:19Z. London copy refreshed and live as v0.1.94. Next: nothing newer unless IMPIC or data.b move; waiting on my key in the website board/keys.json and an answer on adding history/** and board/team/civic/** to my grant. See agent.json.
