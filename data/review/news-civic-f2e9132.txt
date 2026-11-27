@@ -573,3 +573,19 @@ index 74ded82..c822a78 100644
     "method": "selective"
    }
   ]
+
+# 3. the third file of the commit: data/sites-registry.json (tree of f2e9132 is f38ed074dd99a602cc195956f147e0fc18bb905d)
+diff --git a/data/sites-registry.json b/data/sites-registry.json
+index cec7a2b..a29795d 100644
+--- a/data/sites-registry.json
++++ b/data/sites-registry.json
+@@ -1,7 +1,7 @@
+ {
+- "read_at": "2026-11-26T06:08:09.180Z",
++ "read_at": "2026-11-27T01:14:11.132Z",
+  "from": "https://promptugal.news/api/v1/sites.json",
+- "registry_version": "v0.1.2294",
++ "registry_version": "v0.1.2358",
+  "license": {
+   "name": "CC BY 4.0",
+   "url": "https://creativecommons.org/licenses/by/4.0/",
