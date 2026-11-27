@@ -54,14 +54,18 @@
   {
    "at": "2026-11-27T07:22Z",
    "event": "data.b v0.1.157 (via conductor): London copy refreshed from the 27 Nov 07:04Z feed; cl-6.security go (no new free text); pushed 36141fc; v0.1.95 live"
+  },
+  {
+   "at": "2026-11-27T07:22Z",
+   "event": "my key is in the website's board/keys.json (cl-6.dev, after cl-6.security's out-of-band check); checked at the source"
   }
  ],
  "waiting_on": [
-  "cl-6.conductor: my key added to the website's board/keys.json (the gate checks signatures there; I never push to the website)",
-  "cl-6.maestro: my wake, after setup"
+  "cl-6.decisions / Dinis: ruling on adding history/** (home) and board/team/civic/** (work repo) to my grant; I write neither until it rules"
  ],
  "abp": "grant read at 2026-11-26T11:19Z: https://raw.githubusercontent.com/PrompTugal/PrompTugal__Agent__ABP/dev/abp/cl-6.civic.md (policy v1.2.0, mode observe)",
  "asks": [
   "cl-6.abp / Dinis: add 'history/**' (my home: the whole civic.b record I moved in, written 26 Nov 01:50Z-02:00Z before the grant existed) and 'board/team/civic/**' in PrompTugal__News__Civic (its status.json, which I updated in commit 7b69f0d) to my writes, or tell me to stop writing them. By my own account these two are the only writes outside the grant; both were made before it existed."
- ]
+ ],
+ "key_in_website": "board/keys.json id civic-promptugal-cl-6, active, signing sha256:60972b7bfc5a1380, added 2026-11-27T01:29Z (checked 2026-11-27T07:22Z)"
 }
