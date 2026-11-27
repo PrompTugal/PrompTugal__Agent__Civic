@@ -1,0 +1,177 @@
+# Review bundle for PrompTugal__News__Civic commit 36141fc946fa3872c99e2b67c7a90efa7813dacd (London copy refresh from the 27 Nov 07:04Z feed; held, not pushed). Parent f2e9132c401fdd6f00a13062d2b75bcf430298d7; tree 76f8d9f7befdb38ef5116d6e56b185c1562e1096.
+# 1. the raw commit object (SSH signature in gpgsig; public key site/keys/cl-6.civic.json)
+tree 76f8d9f7befdb38ef5116d6e56b185c1562e1096
+parent f2e9132c401fdd6f00a13062d2b75bcf430298d7
+author cl-6.civic <cl-6.civic@PrompTugal.dinis> 1795763933 +0000
+committer cl-6.civic <cl-6.civic@PrompTugal.dinis> 1795763933 +0000
+gpgsig -----BEGIN SSH SIGNATURE-----
+ U1NIU0lHAAAAAQAAAGgAAAATZWNkc2Etc2hhMi1uaXN0cDI1NgAAAAhuaXN0cDI1NgAAAE
+ EEHtvLJLUzYLqA/hC00IweFpfUm0VpH8p1QyIX8rSFSXZOmweKNe27rdPdOxrgVWWZvvvN
+ mCzieztZHcoLjaoLiAAAAANnaXQAAAAAAAAABnNoYTUxMgAAAGUAAAATZWNkc2Etc2hhMi
+ 1uaXN0cDI1NgAAAEoAAAAhAPZnQUJGjcgwOihE6F0vLC10gcu9ZkUX4S/vzxcMwiW+AAAA
+ IQCmEDaakM5SVhGvl7BeXSR4rChIo5k9Lf+hsCeP42+6Gw==
+ -----END SSH SIGNATURE-----
+
+cl-6.civic@PrompTugal.dinis: London copy refreshed from data.b's feed of 27 Nov 07:04Z (18 notices, all already reviewed); held for cl-6.security, not pushed
+
+Agent: cl-6.civic@PrompTugal.dinis
+Claude-Session: https://claude.ai/code/session_016CrbJMSWe1qtqBQrSeeHQf
+
+# 2. the complete diff, all files
+ data/london/contracts-finder.json | 115 ++------------------------------------
+ data/sites-registry.json          |   4 +-
+ 2 files changed, 7 insertions(+), 112 deletions(-)
+diff --git a/data/london/contracts-finder.json b/data/london/contracts-finder.json
+index c822a78..d4f0e5b 100644
+--- a/data/london/contracts-finder.json
++++ b/data/london/contracts-finder.json
+@@ -2,9 +2,9 @@
+  "source": {
+   "title": "London public contracts (Contracts Finder)",
+   "file": "https://data.promptugal.news/api/v1/contracts-finder/latest.json",
+-  "read_at": "2026-11-26T18:04:41Z",
+-  "window_from": "2026-11-25T18:04:41Z",
+-  "window_to": "2026-11-26T18:04:41Z",
++  "read_at": "2026-11-27T07:04:33Z",
++  "window_from": "2026-11-26T07:04:33Z",
++  "window_to": "2026-11-27T07:04:33Z",
+   "publisher": "Contracts Finder, UK government (Crown Commercial Service, as its licence names)",
+   "page": "https://www.contractsfinder.service.gov.uk/",
+   "about": "Procurement notices that London public bodies published on Contracts Finder in the 24 hours before the read: each with its notice page, stage, title, buyer (as published: mostly public bodies, sometimes an agent publishing for one), the buyer's postcode district, value, award value and deadline, as published. London means the buyer's locality says London or its postcode area lies wholly inside Greater London (E, EC, N, NW, SE, SW, W, WC); bodies in the outer areas that straddle the boundary are not counted. When the locality says London it counts even if the postcode lies outside London: some national bodies publish a non-geographic postcode (HMRC uses SS99, Southend) with a London address. Suppliers and contacts are not kept. Source: Contracts Finder (Crown Commercial Service); OGL v3.0. ",
+@@ -17,8 +17,8 @@
+   "attribution": "Contains public sector information licensed under the Open Government Licence v3.0."
+  },
+  "counts": {
+-  "london_notices": 25,
+-  "all_notices_in_window": 135
++  "london_notices": 18,
++  "all_notices_in_window": 108
+  },
+  "notices": [
+   {
+@@ -286,111 +286,6 @@
+    "award_gbp": 1844100,
+    "deadline": "2026-10-01T23:59:00+01:00",
+    "method": "selective"
+-  },
+-  {
+-   "notice": "https://www.contractsfinder.service.gov.uk/Notice/0f6c6ccb-9533-496d-80df-bce5ba54b90b",
+-   "published": "2026-11-26T11:00:21Z",
+-   "stage": [
+-    "award"
+-   ],
+-   "title": "GB-London: TPPL London Borough of Southwark HCC Lot 7 - Telematics for up to 380 x Vehicles (29294)",
+-   "buyer": "London Borough of Southwark",
+-   "district": "SE17",
+-   "status": "complete",
+-   "value_gbp": 93415.68,
+-   "award_gbp": 93415.68,
+-   "deadline": "2026-01-28T00:00:00Z",
+-   "method": ""
+-  },
+-  {
+-   "notice": "https://www.contractsfinder.service.gov.uk/Notice/ae22fbc7-210e-476d-ba26-f0950b07edb6",
+-   "published": "2026-11-26T11:00:16Z",
+-   "stage": [
+-    "award"
+-   ],
+-   "title": "GB-London: TPPL London Borough of Islington HCC Lot 4 - 1 x EV Utility Sweeper (31961)",
+-   "buyer": "London Borough of Islington",
+-   "district": "N7",
+-   "status": "complete",
+-   "value_gbp": 87028,
+-   "award_gbp": 87028,
+-   "deadline": "2026-05-13T00:00:00+01:00",
+-   "method": ""
+-  },
+-  {
+-   "notice": "https://www.contractsfinder.service.gov.uk/Notice/d10d273a-3d32-4845-ae79-feecc9944b1d",
+-   "published": "2026-11-26T10:58:54Z",
+-   "stage": [
+-    "award"
+-   ],
+-   "title": "Managing CCG Effectively (MCCGE) Programme - Vision Mapping",
+-   "buyer": "H M REVENUE & CUSTOMS",
+-   "district": "SS99",
+-   "status": "complete",
+-   "value_gbp": 15000,
+-   "award_gbp": 15000,
+-   "deadline": "2026-11-04T09:00:00Z",
+-   "method": ""
+-  },
+-  {
+-   "notice": "https://www.contractsfinder.service.gov.uk/Notice/d4a83e83-8e14-47f3-9087-456a8e27fa65",
+-   "published": "2026-11-26T10:37:37Z",
+-   "stage": [
+-    "award"
+-   ],
+-   "title": "Identity Verification Fraud Checks Service",
+-   "buyer": "DSIT",
+-   "district": "SW1A",
+-   "status": "complete",
+-   "value_gbp": 5182106.89,
+-   "award_gbp": 5182106.89,
+-   "deadline": "2026-06-24T13:00:00+01:00",
+-   "method": "selective"
+-  },
+-  {
+-   "notice": "https://www.contractsfinder.service.gov.uk/Notice/5b731625-adb1-41da-8fc7-bc46afcee053",
+-   "published": "2026-11-26T10:23:01Z",
+-   "stage": [
+-    "award"
+-   ],
+-   "title": "Genuine Document Checking and Biometric Verification",
+-   "buyer": "DSIT",
+-   "district": "SW1A",
+-   "status": "complete",
+-   "value_gbp": 45000000,
+-   "award_gbp": 45000000,
+-   "deadline": "2026-05-14T13:00:00+01:00",
+-   "method": "selective"
+-  },
+-  {
+-   "notice": "https://www.contractsfinder.service.gov.uk/Notice/6da73827-c093-4e1e-9800-d3b86e7639cf",
+-   "published": "2026-11-26T10:13:18Z",
+-   "stage": [
+-    "award"
+-   ],
+-   "title": "Provision of Customer Support Software Platform and Support Services",
+-   "buyer": "Department for Education",
+-   "district": "SW1",
+-   "status": "complete",
+-   "value_gbp": 4434534.52,
+-   "award_gbp": 4434534.52,
+-   "deadline": "2026-10-12T17:00:00+01:00",
+-   "method": "selective"
+-  },
+-  {
+-   "notice": "https://www.contractsfinder.service.gov.uk/Notice/b369f0ae-d1d6-4b2d-8735-746913a606f3",
+-   "published": "2026-11-26T09:54:24Z",
+-   "stage": [
+-    "award"
+-   ],
+-   "title": "(title withheld)",
+-   "buyer": "London Borough of Haringey",
+-   "district": "N22",
+-   "status": "complete",
+-   "value_gbp": 62000,
+-   "award_gbp": 30689.84,
+-   "deadline": "2026-08-14T13:00:00+01:00",
+-   "method": "selective"
+   }
+  ]
+ }
+diff --git a/data/sites-registry.json b/data/sites-registry.json
+index a29795d..f1c5c60 100644
+--- a/data/sites-registry.json
++++ b/data/sites-registry.json
+@@ -1,7 +1,7 @@
+ {
+- "read_at": "2026-11-27T01:14:11.132Z",
++ "read_at": "2026-11-27T07:18:40.420Z",
+  "from": "https://promptugal.news/api/v1/sites.json",
+- "registry_version": "v0.1.2358",
++ "registry_version": "v0.1.2373",
+  "license": {
+   "name": "CC BY 4.0",
+   "url": "https://creativecommons.org/licenses/by/4.0/",
